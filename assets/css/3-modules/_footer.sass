@@ -1,0 +1,29 @@
+footer
+    background: url(../img/hero-bg2.jpg) center center
+    background-size: cover
+    
+    .lockup
+        padding: 30px
+        +clearfix
+
+        .logo
+            +size(50px)
+            float: left
+                margin-right: 30px
+
+        .content-wrap
+            float: left
+            
+            .copyright
+                margin: 0
+                font-size: 12px
+                color: white
+                    
+            a
+                @extend %small-bold
+                color: white
+                display: inline-block
+                margin-right: 30px
+                
+                &:hover
+                    color: rgb(222, 222, 222)
